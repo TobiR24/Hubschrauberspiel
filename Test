@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hubschrauber Spiel</title>
+<style>
+    #spielbereich {
+        width: 600px;
+        height: 400px;
+        border: 1px solid #000;
+        position: relative;
+    }
+    #hubschrauber {
+        width: 50px;
+        height: 30px;
+        background-color: red;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+</style>
+</head>
+<body>
+<h1>Hubschrauber Spiel</h1>
+<div id="spielbereich">
+    <div id="hubschrauber"></div>
+</div>
+</body>
+</html>
